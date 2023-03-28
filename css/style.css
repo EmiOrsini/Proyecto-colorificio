@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*colores
+#00000063
+#3fe7dd
+
+FUENTES
+font-family: 'Bitter', serif;
+font-family: 'Prompt', sans-serif;*/
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    color: #00000063;
+    font-family: 'Bitter', serif;
+    font-size: 5rem ;
+    font-weight: 550;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    color: black
+}
+
+h3{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    color: black
+}
+
+h4{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    color: black
+}
+
+h5{
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5rem;
+    color: black
+}
+
+.headerColor{
+    background-color: #3fe7dd;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barraNav{
+    font-size: 3.5rem;
+    display: flex;
+    column-gap: 4rem;
+    justify-content: space-around;
+    list-style-type: none;
+}
+img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 7rem;
+}
+
+.barraNav li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.balde img{
+    display: flex;
+    margin: 6rem;
+    padding-left: 6rem;
+    width: 38rem;
+}
+
+button{
+    background-color: #3fe7dd;
+    width: 30rem;
+    height: 6rem;
+}
+
+.boton{
+    display: flex;
+    justify-content: center ;
+}
+
+div p{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    width: 47%;
+    font-size: 2.5rem;
+    font-weight: 550;
+    align-content: center;
+}
+
+footer{
+    display: flex;
+    color: #3fe7dd;
+    background-color: burlywood;
+}
