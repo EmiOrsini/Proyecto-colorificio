@@ -6,7 +6,6 @@
 /*colores
 #00000063
 #3fe7dd
-
 FUENTES
 font-family: 'Bitter', serif;
 font-family: 'Prompt', sans-serif;*/
@@ -132,10 +131,9 @@ div p{
 
 footer{
     display: flex;
+    position: relative;
     color: #3fe7dd;
     background-color: burlywood;
-    position: relative;
-    display: flex;
 }
 
 .iconoFigma{
